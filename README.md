@@ -7,9 +7,11 @@ This project conducts a comparative analysis of two pretrained summarization mod
 * Jupyter Notebook
 
 ## Installation
-* Set up your new environment using the attached myenv (needed if you don't want to complicate your paths) 
+* Set up your new environment using the attached myenv (needed if you don't want to complicate your paths)
+    * Make sure to include python 3.13 and all it's site packages. Too big to upload here
     * source myenv/bin/activate to start
     * source myenv/bin/deactivate to close
+    * This, essentially, just sets up a virtual environment to work with
 
 * pip install torch, pickle, nltk,
 * Numpy, Pandas, Seaborn, Matplotlib.pyplot, os, json
